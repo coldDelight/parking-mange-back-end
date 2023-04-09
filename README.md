@@ -1,11 +1,14 @@
 # parking-mange-back-end
+![parking](https://user-images.githubusercontent.com/94586184/230759752-ef9b3a13-e14b-49d9-b213-c49fd47d3829.png)
 
-## 2020. 06 ~ 2020. 10
 
-주차장 관리 시스템 back-end
+```
+❓ 기존의 IoT센서기반이 아닌 CCTV영상에 yolo v3모델을 활용한 주차장 관리 시스템
+```
+- 프로젝트 기간 : `2020.06` ~ `2020.10`
 
-기존의 IoT센서 주차장 관리가 아닌 cctv를 기반으로 주차장을 관리하는 시스템
-
-## 담당한 기능(back - end )
-
-- node , express js를 이용하여 DB에 값을 저장하는 API 설계 구현
+## Skill
+- node
+- express
+- Maria DB
+- simple api
