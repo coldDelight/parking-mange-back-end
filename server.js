@@ -4,12 +4,12 @@ const cors = require("cors");
 
 const mysql = require("mysql2/promise");
 const CCTV = mysql.createPool({
-  host: "210.119.104.208",
-  port: 32770,
-  user: "root",
-  password: "1q2w3e4r",
-  database: "CCTV",
-  dateStrings: "date",
+  host: {handle},
+  port: {handle},
+  user: {handle},
+  password: {handle},
+  database: {handle},
+  dateStrings: {handle},
 });
 app.use(cors());
 app.use(express.json());
